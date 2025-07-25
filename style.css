@@ -1,37 +1,47 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f0f0f0;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-header {
-  background: #111;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebenezer Asiedu | Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="photo.jpg" alt="Ebenezer Asiedu" class="profile-pic">
+      <h1>Ebenezer Asiedu</h1>
+      <p>Detail-driven Data Analyst turning numbers into stories</p>
+    </div>
+  </header>
 
-footer {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-}
+  <section class="about container">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Ebenezer Asiedu, a detail-driven Data Analyst who loves turning numbers into stories and raw data into smart decisions. With the experience I have in data analysis, I have developed a strong skill set in data cleaning, data visualization, data manipulation, database management and statistical modeling. My expertise enables organizations to make data-driven decisions and drive business success.
+    </p>
+    <p>
+      As a Data Analyst, I am dedicated to delivering high-quality insights and solutions to businesses. I'm excited to partner with forward-thinking clients who share my passion for data-driven decision-making and need expert analysis and visualization to inform their strategic decisions. I love solving puzzles outside work which helps me develop logical thinking and sharpens my analytical mindset.
+    </p>
+  </section>
 
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
+  <section class="projects container">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/Ebenezer362/Sales-Data-Analysis" target="_blank">Sales Data Analysis</a></li>
+      <li><a href="https://github.com/Ebenezer362/10alytics-Project-challenge" target="_blank">10alytics Project Challenge</a></li>
+      <li><a href="https://github.com/Ebenezer362/Supermarket-Sales-Analysis" target="_blank">Supermarket Sales Analysis</a></li>
+      <li><a href="https://github.com/Ebenezer362/Agriculture-sector-of-India-Analysis" target="_blank">Agriculture Sector of India Analysis</a></li>
+      <li><a href="https://github.com/Ebenezer362/Design-thinking-for-Banking-Innovation" target="_blank">Design Thinking for Banking Innovation</a></li>
+    </ul>
+  </section>
 
-a:hover {
-  text-decoration: underline;
-}
+  <footer class="footer container">
+    <p>LinkedIn: <a href="https://tinyurl.com/4a6m3kyh" target="_blank">https://tinyurl.com/4a6m3kyh</a></p>
+    <p>Email: <a href="mailto:easiedu362@gmail.com">easiedu362@gmail.com</a></p>
+  </footer>
+</body>
+
+</html>
